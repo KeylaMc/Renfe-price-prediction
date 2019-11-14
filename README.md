@@ -1,6 +1,6 @@
-Spanish High Speed Rail tickets pricing - Renfe
-Author: Keyla Méndez | Oct-2019
-Machine Learning Project.
+# **Spanish High Speed Rail tickets pricing - Renfe**
+
+   _Author: Keyla Méndez_ | _Oct-2019_
 
 **Machine Learning Project.**
 
