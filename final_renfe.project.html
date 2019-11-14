@@ -2,7 +2,7 @@
 <html>
 <head><meta charset="utf-8" />
 
-<title>Github_renfe</title>
+<title>final_renfe.project</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -13090,7 +13090,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Spanish-High-Speed-Rail-tickets-pricing---Renfe"><strong>Spanish High Speed Rail tickets pricing - Renfe</strong><a class="anchor-link" href="#Spanish-High-Speed-Rail-tickets-pricing---Renfe">&#182;</a></h1><h4 id="Ticket-pricing-for-routes">Ticket pricing for routes<a class="anchor-link" href="#Ticket-pricing-for-routes">&#182;</a></h4><p><em>Author: Keyla Méndez</em> | <em>Oct-2019</em></p>
+<h1 id="Spanish-High-Speed-Rail-tickets-pricing---Renfe"><strong>Spanish High Speed Rail tickets pricing - Renfe</strong><a class="anchor-link" href="#Spanish-High-Speed-Rail-tickets-pricing---Renfe">&#182;</a></h1><p><em>Author: Keyla Méndez</em> | <em>Oct-2019</em></p>
 
 </div>
 </div>
@@ -13128,7 +13128,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[49]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> <span class="c1">#data processing, csv file</span>
@@ -13149,7 +13149,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[2]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#load data</span>
@@ -13163,7 +13163,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -13181,7 +13181,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[3]:</div>
+    <div class="prompt output_prompt">Out[6]:</div>
 
 
 
@@ -13297,7 +13297,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">columns</span>
@@ -13313,7 +13313,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[4]:</div>
+    <div class="prompt output_prompt">Out[5]:</div>
 
 
 
@@ -13332,7 +13332,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Data information</span>
@@ -13350,7 +13350,7 @@ div#notebook {
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[5]:</div>
+    <div class="prompt output_prompt">Out[7]:</div>
 
 
 
@@ -13384,7 +13384,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">convert_date</span><span class="p">(</span><span class="n">data</span><span class="p">):</span> 
@@ -13398,7 +13398,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">insert_date</span> <span class="o">=</span> <span class="n">convert_date</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">insert_date</span><span class="p">)</span>
@@ -13413,7 +13413,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Check the conversion to date </span>
@@ -13430,7 +13430,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[8]:</div>
+    <div class="prompt output_prompt">Out[10]:</div>
 
 
 
@@ -13467,6 +13467,51 @@ dtype: object</pre>
 <div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># To see unique values </span>
+<span class="c1">#col_names = [&#39;origin&#39;, &#39;destination&#39;, &#39;train_type&#39;, &#39;train_class&#39;, &#39;fare&#39;]</span>
+<span class="c1">#index_list = [1,2,5,7,8]</span>
+
+<span class="c1">#for col, item in zip(col_names, index_list):</span>
+    <span class="c1">#print(f&#39;Unique Values of column {col}: {data.iloc[:,item].unique()}&#39;)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>Unique Values of column origin: [&#39;MADRID&#39; &#39;SEVILLA&#39; &#39;BARCELONA&#39; &#39;VALENCIA&#39; &#39;PONFERRADA&#39;]
+Unique Values of column destination: [&#39;BARCELONA&#39; &#39;SEVILLA&#39; &#39;VALENCIA&#39; &#39;MADRID&#39; &#39;PONFERRADA&#39;]
+Unique Values of column train_type: [&#39;AVE&#39; &#39;AVE-TGV&#39; &#39;R. EXPRES&#39; &#39;AV City&#39; &#39;ALVIA&#39; &#39;INTERCITY&#39; &#39;MD-LD&#39;
+ &#39;REGIONAL&#39; &#39;AVE-MD&#39; &#39;AVE-LD&#39; &#39;LD-MD&#39; &#39;MD&#39; &#39;LD&#39; &#39;TRENHOTEL&#39; &#39;MD-AVE&#39;
+ &#39;LD-AVE&#39;]
+Unique Values of column train_class: [&#39;Preferente&#39; &#39;Turista&#39; &#39;Turista Plus&#39; nan &#39;Turista con enlace&#39;
+ &#39;Cama Turista&#39; &#39;Cama G. Clase&#39; &#39;TuristaSólo plaza H&#39;
+ &#39;PreferenteSólo plaza H&#39; &#39;Turista PlusSólo plaza H&#39;]
+Unique Values of column fare: [&#39;Promo&#39; &#39;Flexible&#39; nan &#39;Adulto ida&#39; &#39;Promo +&#39; &#39;Individual-Flexible&#39;
+ &#39;Grupos Ida&#39; &#39;Doble Familiar-Flexible&#39; &#39;COD.PROMOCIONAL&#39; &#39;Mesa&#39; &#39;4x100&#39;]
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="inner_cell">
+    <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Create a column &#39;origin_destination&#39;</span>
 <span class="n">data</span><span class="p">[</span><span class="s1">&#39;origin_dest&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">origin</span> <span class="o">+</span> <span class="s1">&#39;-&#39;</span> <span class="o">+</span> <span class="n">data</span><span class="o">.</span><span class="n">destination</span>
 <span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
@@ -13482,7 +13527,7 @@ dtype: object</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[9]:</div>
+    <div class="prompt output_prompt">Out[11]:</div>
 
 
 
@@ -13565,7 +13610,7 @@ dtype: object</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[10]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">f</span><span class="s1">&#39;Unique Value Origin-Destination: {data.origin_dest.unique()}&#39;</span> <span class="p">)</span>
@@ -13673,6 +13718,124 @@ places.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
+<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;fare&#39;</span><span class="p">])[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;price&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">})</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>C:\Users\KEYLA\Anaconda_new\lib\site-packages\ipykernel_launcher.py:1: FutureWarning:
+
+using a dict on a Series for aggregation
+is deprecated and will be removed in a future version. Use                 named aggregation instead.
+
+    &gt;&gt;&gt; grouper.agg(name_1=func_1, name_2=func_2)
+
+
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[88]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>price</th>
+    </tr>
+    <tr>
+      <th>fare</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4x100</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <td>Adulto ida</td>
+      <td>31.365210</td>
+    </tr>
+    <tr>
+      <td>COD.PROMOCIONAL</td>
+      <td>57.616111</td>
+    </tr>
+    <tr>
+      <td>Doble Familiar-Flexible</td>
+      <td>98.200000</td>
+    </tr>
+    <tr>
+      <td>Flexible</td>
+      <td>80.150986</td>
+    </tr>
+    <tr>
+      <td>Grupos Ida</td>
+      <td>84.023810</td>
+    </tr>
+    <tr>
+      <td>Individual-Flexible</td>
+      <td>150.600000</td>
+    </tr>
+    <tr>
+      <td>Mesa</td>
+      <td>246.159420</td>
+    </tr>
+    <tr>
+      <td>Promo</td>
+      <td>59.609119</td>
+    </tr>
+    <tr>
+      <td>Promo +</td>
+      <td>36.358374</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
 <div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
@@ -13720,11 +13883,124 @@ places.
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;train_class&#39;</span><span class="p">])[</span><span class="s1">&#39;price&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;price&#39;</span><span class="p">:</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">})</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>C:\Users\KEYLA\Anaconda_new\lib\site-packages\ipykernel_launcher.py:1: FutureWarning:
+
+using a dict on a Series for aggregation
+is deprecated and will be removed in a future version. Use                 named aggregation instead.
+
+    &gt;&gt;&gt; grouper.agg(name_1=func_1, name_2=func_2)
+
+
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[76]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>price</th>
+    </tr>
+    <tr>
+      <th>train_class</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cama G. Clase</td>
+      <td>143.969796</td>
+    </tr>
+    <tr>
+      <td>Cama Turista</td>
+      <td>75.002903</td>
+    </tr>
+    <tr>
+      <td>Preferente</td>
+      <td>75.338810</td>
+    </tr>
+    <tr>
+      <td>PreferenteSólo plaza H</td>
+      <td>80.681466</td>
+    </tr>
+    <tr>
+      <td>Turista</td>
+      <td>59.045591</td>
+    </tr>
+    <tr>
+      <td>Turista Plus</td>
+      <td>82.877391</td>
+    </tr>
+    <tr>
+      <td>Turista PlusSólo plaza H</td>
+      <td>80.579590</td>
+    </tr>
+    <tr>
+      <td>Turista con enlace</td>
+      <td>45.529786</td>
+    </tr>
+    <tr>
+      <td>TuristaSólo plaza H</td>
+      <td>86.785768</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Distribution Number of trips</p>
-
+<h4 id="Distribution-Number-of-trips">Distribution Number of trips<a class="anchor-link" href="#Distribution-Number-of-trips">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -13784,7 +14060,7 @@ places.
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[11]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;train_class&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">value_counts</span><span class="p">()</span>
@@ -13800,7 +14076,7 @@ places.
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[11]:</div>
+    <div class="prompt output_prompt">Out[12]:</div>
 
 
 
@@ -13827,7 +14103,7 @@ Name: train_class, dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Handling-Missing-Values"><strong>Handling Missing Values</strong><a class="anchor-link" href="#Handling-Missing-Values">&#182;</a></h4>
+<h4 id="Missing-Values"><strong>Missing Values</strong><a class="anchor-link" href="#Missing-Values">&#182;</a></h4>
 </div>
 </div>
 </div>
@@ -13841,7 +14117,7 @@ Name: train_class, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">isna</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -13857,7 +14133,7 @@ Name: train_class, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[12]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -13884,7 +14160,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[13]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#View rows with missing data </span>
@@ -13901,7 +14177,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[13]:</div>
+    <div class="prompt output_prompt">Out[14]:</div>
 
 
 
@@ -14024,7 +14300,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[14]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Average price train between Type, Class and Fare.</span>
@@ -14038,7 +14314,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">avgPrice_train</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
@@ -14054,7 +14330,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[15]:</div>
+    <div class="prompt output_prompt">Out[13]:</div>
 
 
 
@@ -14130,7 +14406,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Fill the missed value in the &quot;fare&quot; column with the value has the most frequency</span>
@@ -14144,7 +14420,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Fill the missed value in the &quot;train_class&quot; column with the value has the most frequency</span>
@@ -14158,7 +14434,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Fill the missed value in the &quot;price&quot; column with mean of the ticket price.</span>
@@ -14172,7 +14448,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[19]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
@@ -14188,7 +14464,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[19]:</div>
+    <div class="prompt output_prompt">Out[20]:</div>
 
 
 
@@ -14213,6 +14489,24 @@ dtype: int64</pre>
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="sd">&#39;&#39;&#39;col_names = list(data.columns[:-1])</span>
+<span class="sd">index_list = range(5)</span>
+<span class="sd">for col, item in zip(col_names, index_list):</span>
+<span class="sd">    print(&#39;----------------------------------------------------------&#39;)</span>
+<span class="sd">    print(f&#39;Unique Values of column {col}: {data.iloc[:,item].unique()}&#39;)</span>
+<span class="sd">    print(f&#39;Count of Missing Values of column {col}: {sum(data.iloc[:,item].isnull())}&#39;) &#39;&#39;&#39;</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
@@ -14223,7 +14517,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[20]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;insert_date&quot;</span><span class="p">,</span> <span class="s2">&quot;start_date&quot;</span><span class="p">,</span> <span class="s2">&quot;end_date&quot;</span><span class="p">]:</span>
@@ -14236,6 +14530,203 @@ dtype: int64</pre>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[21]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>insert_date</th>
+      <th>origin</th>
+      <th>destination</th>
+      <th>start_date</th>
+      <th>end_date</th>
+      <th>train_type</th>
+      <th>price</th>
+      <th>train_class</th>
+      <th>fare</th>
+      <th>origin_dest</th>
+      <th>...</th>
+      <th>start_date_hour</th>
+      <th>start_date_minute</th>
+      <th>start_date_weekday</th>
+      <th>start_date_day</th>
+      <th>start_date_month</th>
+      <th>end_date_hour</th>
+      <th>end_date_minute</th>
+      <th>end_date_weekday</th>
+      <th>end_date_day</th>
+      <th>end_date_month</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 05:50:00</td>
+      <td>2019-04-18 08:55:00</td>
+      <td>AVE</td>
+      <td>68.95</td>
+      <td>Preferente</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>...</td>
+      <td>5</td>
+      <td>50</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>8</td>
+      <td>55</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 06:30:00</td>
+      <td>2019-04-18 09:20:00</td>
+      <td>AVE</td>
+      <td>75.40</td>
+      <td>Turista</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>...</td>
+      <td>6</td>
+      <td>30</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>9</td>
+      <td>20</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 07:00:00</td>
+      <td>2019-04-18 09:30:00</td>
+      <td>AVE</td>
+      <td>106.75</td>
+      <td>Turista Plus</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>...</td>
+      <td>7</td>
+      <td>0</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>9</td>
+      <td>30</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 07:30:00</td>
+      <td>2019-04-18 10:40:00</td>
+      <td>AVE</td>
+      <td>90.50</td>
+      <td>Turista Plus</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>...</td>
+      <td>7</td>
+      <td>30</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>10</td>
+      <td>40</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 08:00:00</td>
+      <td>2019-04-18 10:30:00</td>
+      <td>AVE</td>
+      <td>88.95</td>
+      <td>Turista</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>...</td>
+      <td>8</td>
+      <td>0</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>10</td>
+      <td>30</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 25 columns</p>
+</div>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -14297,6 +14788,159 @@ dtype: int64</pre>
 
 </div>
 </div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_time</span> <span class="o">=</span><span class="n">data</span><span class="o">.</span><span class="n">query</span><span class="p">(</span><span class="s1">&#39;origin in (&quot;BARCELONA&quot;,&quot;MADRID&quot;) and destination in (&quot;BARCELONA&quot;,&quot;MADRID&quot;) &#39;</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_2_time</span><span class="o">=</span><span class="n">df_time</span><span class="o">.</span><span class="n">assign</span><span class="p">(</span><span class="n">start_time</span><span class="o">=</span><span class="n">df_time</span><span class="p">[</span><span class="s1">&#39;start_date&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">dt</span><span class="o">.</span><span class="n">time</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[79]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">df_groupby_time</span><span class="o">=</span><span class="n">df_2_time</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;start_time&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;price&#39;</span><span class="p">:[</span><span class="s1">&#39;count&#39;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">]})</span>
+<span class="n">df_groupby_time</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[79]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead tr th {
+        text-align: left;
+    }
+
+    .dataframe thead tr:last-of-type th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr>
+      <th></th>
+      <th colspan="2" halign="left">price</th>
+    </tr>
+    <tr>
+      <th></th>
+      <th>count</th>
+      <th>mean</th>
+    </tr>
+    <tr>
+      <th>start_time</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>05:50:00</td>
+      <td>27981</td>
+      <td>60.395636</td>
+    </tr>
+    <tr>
+      <td>06:05:00</td>
+      <td>25494</td>
+      <td>73.497803</td>
+    </tr>
+    <tr>
+      <td>06:10:00</td>
+      <td>9468</td>
+      <td>70.798996</td>
+    </tr>
+    <tr>
+      <td>06:20:00</td>
+      <td>16387</td>
+      <td>62.183597</td>
+    </tr>
+    <tr>
+      <td>06:25:00</td>
+      <td>16383</td>
+      <td>80.518961</td>
+    </tr>
+    <tr>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td>20:00:00</td>
+      <td>57672</td>
+      <td>76.007350</td>
+    </tr>
+    <tr>
+      <td>20:30:00</td>
+      <td>33079</td>
+      <td>64.925537</td>
+    </tr>
+    <tr>
+      <td>21:00:00</td>
+      <td>9122</td>
+      <td>69.522907</td>
+    </tr>
+    <tr>
+      <td>21:15:00</td>
+      <td>31667</td>
+      <td>60.974241</td>
+    </tr>
+    <tr>
+      <td>21:25:00</td>
+      <td>47550</td>
+      <td>67.813966</td>
+    </tr>
+  </tbody>
+</table>
+<p>61 rows × 2 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -14397,7 +15041,7 @@ Name: start_date_weekday, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">route</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;origin&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; To &#39;</span> <span class="o">+</span> <span class="n">data</span><span class="p">[</span><span class="s1">&#39;destination&#39;</span><span class="p">]</span>
@@ -14414,7 +15058,7 @@ Name: start_date_weekday, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[21]:</div>
+    <div class="prompt output_prompt">Out[25]:</div>
 
 
 
@@ -14436,7 +15080,20 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[43]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#data.groupby(by=[&#39;origin&#39;,&#39;destination&#39;])[&#39;price&#39;].describe()</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[44]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">groupby</span><span class="p">([</span><span class="s1">&#39;origin&#39;</span><span class="p">,</span><span class="s1">&#39;destination&#39;</span><span class="p">])</span><span class="o">.</span><span class="n">agg</span><span class="p">({</span><span class="s1">&#39;price&#39;</span><span class="p">:[</span><span class="s1">&#39;count&#39;</span><span class="p">,</span> <span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">]})</span>
@@ -14452,7 +15109,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[22]:</div>
+    <div class="prompt output_prompt">Out[44]:</div>
 
 
 
@@ -14594,11 +15251,11 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[89]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">df</span> <span class="o">=</span> <span class="n">data</span><span class="p">[[</span><span class="s1">&#39;origin_dest&#39;</span><span class="p">,</span> <span class="s1">&#39;train_type&#39;</span><span class="p">,</span> <span class="s1">&#39;price&#39;</span><span class="p">]]</span>
-<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -14611,7 +15268,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[23]:</div>
+    <div class="prompt output_prompt">Out[89]:</div>
 
 
 
@@ -14652,12 +15309,6 @@ dtype: int64</pre>
       <td>AVE</td>
       <td>75.40</td>
     </tr>
-    <tr>
-      <td>2</td>
-      <td>MADRID-BARCELONA</td>
-      <td>AVE</td>
-      <td>106.75</td>
-    </tr>
   </tbody>
 </table>
 </div>
@@ -14684,13 +15335,13 @@ dtype: int64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Correlation-Matrix">Correlation Matrix<a class="anchor-link" href="#Correlation-Matrix">&#182;</a></h4>
+<h3 id="Correlation-Matrix">Correlation Matrix<a class="anchor-link" href="#Correlation-Matrix">&#182;</a></h3>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[90]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">corr</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
@@ -14708,727 +15359,727 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[24]:</div>
+    <div class="prompt output_prompt">Out[90]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <style  type="text/css" >
-    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col0 {
+    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col0 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col2 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col3 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col4 {
             background-color:  #472f7d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col5 {
             background-color:  #472d7b;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col6 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col7 {
             background-color:  #3b528b;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col8 {
             background-color:  #481f70;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col9 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col10 {
             background-color:  #482374;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col11 {
             background-color:  #3b528b;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col12 {
             background-color:  #481f70;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col0 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col1 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col2 {
             background-color:  #470d60;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col3 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col4 {
             background-color:  #3e4989;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col5 {
             background-color:  #481d6f;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col6 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col7 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col8 {
             background-color:  #3c4f8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col9 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col10 {
             background-color:  #482475;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col11 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col12 {
             background-color:  #3c4f8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col0 {
             background-color:  #46307e;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col1 {
             background-color:  #46075a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col2 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col4 {
             background-color:  #365c8d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col5 {
             background-color:  #481a6c;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col6 {
             background-color:  #3d4d8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col7 {
             background-color:  #3f4889;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col8 {
             background-color:  #365d8d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col9 {
             background-color:  #470d60;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col10 {
             background-color:  #482173;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col11 {
             background-color:  #3f4889;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col12 {
             background-color:  #365d8d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col0 {
             background-color:  #463480;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col1 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col2 {
             background-color:  #460a5d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col3 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col4 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col5 {
             background-color:  #481d6f;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col6 {
             background-color:  #453781;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col7 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col8 {
             background-color:  #423f85;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col9 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col10 {
             background-color:  #482475;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col11 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col12 {
             background-color:  #423f85;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col0 {
             background-color:  #481b6d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col1 {
             background-color:  #46075a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col2 {
             background-color:  #482979;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col3 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col4 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col5 {
             background-color:  #481d6f;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col6 {
             background-color:  #443983;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col7 {
             background-color:  #453882;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col8 {
             background-color:  #c2df23;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col9 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col10 {
             background-color:  #481c6e;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col11 {
             background-color:  #453882;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col12 {
             background-color:  #c2df23;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col0 {
             background-color:  #414287;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col2 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col4 {
             background-color:  #404688;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col5 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col6 {
             background-color:  #481f70;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col7 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col8 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col9 {
             background-color:  #50c46a;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col10 {
             background-color:  #472c7a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col11 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col12 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col0 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col2 {
             background-color:  #482677;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col4 {
             background-color:  #3e4989;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col5 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col6 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col7 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col8 {
             background-color:  #3d4e8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col9 {
             background-color:  #471365;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col10 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col11 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col12 {
             background-color:  #3d4e8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col0 {
             background-color:  #423f85;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col2 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col4 {
             background-color:  #46327e;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col5 {
             background-color:  #481f70;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col6 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col7 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col8 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col9 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col10 {
             background-color:  #482576;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col11 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col12 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col0 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col1 {
             background-color:  #460a5d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col2 {
             background-color:  #482576;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col3 {
             background-color:  #443983;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col4 {
             background-color:  #c2df23;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col5 {
             background-color:  #481c6e;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col6 {
             background-color:  #443983;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col7 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col8 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col9 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col10 {
             background-color:  #481b6d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col11 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col12 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col0 {
             background-color:  #46337f;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col2 {
             background-color:  #471164;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col3 {
             background-color:  #404688;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col4 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col5 {
             background-color:  #5ac864;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col6 {
             background-color:  #424086;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col7 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col8 {
             background-color:  #3e4989;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col9 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col10 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col11 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col12 {
             background-color:  #3e4989;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col0 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col2 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col4 {
             background-color:  #424086;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col5 {
             background-color:  #482576;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col6 {
             background-color:  #48186a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col7 {
             background-color:  #3d4d8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col8 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col9 {
             background-color:  #481b6d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col10 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col11 {
             background-color:  #3d4d8a;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col12 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col0 {
             background-color:  #433e85;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col2 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col4 {
             background-color:  #46337f;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col5 {
             background-color:  #481f70;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col6 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col7 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col8 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col9 {
             background-color:  #450559;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col10 {
             background-color:  #482576;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col11 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col12 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col0 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col0 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col1 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col1 {
             background-color:  #460a5d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col2 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col2 {
             background-color:  #482576;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col3 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col3 {
             background-color:  #443983;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col4 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col4 {
             background-color:  #c2df23;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col5 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col5 {
             background-color:  #481c6e;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col6 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col6 {
             background-color:  #443983;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col7 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col7 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col8 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col8 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col9 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col9 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col10 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col10 {
             background-color:  #481b6d;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col11 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col11 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col12 {
+        }    #T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col12 {
             background-color:  #fde725;
             color:  #000000;
-        }</style><table id="T_77c0ae40_f348_11e9_978a_7470fdc90652" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >price</th>        <th class="col_heading level0 col1" >insert_date_hour</th>        <th class="col_heading level0 col2" >insert_date_minute</th>        <th class="col_heading level0 col3" >insert_date_day</th>        <th class="col_heading level0 col4" >insert_date_month</th>        <th class="col_heading level0 col5" >start_date_hour</th>        <th class="col_heading level0 col6" >start_date_minute</th>        <th class="col_heading level0 col7" >start_date_day</th>        <th class="col_heading level0 col8" >start_date_month</th>        <th class="col_heading level0 col9" >end_date_hour</th>        <th class="col_heading level0 col10" >end_date_minute</th>        <th class="col_heading level0 col11" >end_date_day</th>        <th class="col_heading level0 col12" >end_date_month</th>    </tr></thead><tbody>
+        }</style><table id="T_601cf458_f8df_11e9_a3b0_7470fdc90652" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >price</th>        <th class="col_heading level0 col1" >insert_date_hour</th>        <th class="col_heading level0 col2" >insert_date_minute</th>        <th class="col_heading level0 col3" >insert_date_day</th>        <th class="col_heading level0 col4" >insert_date_month</th>        <th class="col_heading level0 col5" >start_date_hour</th>        <th class="col_heading level0 col6" >start_date_minute</th>        <th class="col_heading level0 col7" >start_date_day</th>        <th class="col_heading level0 col8" >start_date_month</th>        <th class="col_heading level0 col9" >end_date_hour</th>        <th class="col_heading level0 col10" >end_date_minute</th>        <th class="col_heading level0 col11" >end_date_day</th>        <th class="col_heading level0 col12" >end_date_month</th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row0" class="row_heading level0 row0" >price</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col0" class="data row0 col0" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col1" class="data row0 col1" >-0.00077</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col2" class="data row0 col2" >-0.021</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col3" class="data row0 col3" >-0.006</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col4" class="data row0 col4" >-0.098</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col5" class="data row0 col5" >0.049</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col6" class="data row0 col6" >-0.19</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col7" class="data row0 col7" >0.033</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col8" class="data row0 col8" >-0.18</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col9" class="data row0 col9" >-0.0093</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col10" class="data row0 col10" >-0.0039</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col11" class="data row0 col11" >0.032</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row0_col12" class="data row0 col12" >-0.18</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row0" class="row_heading level0 row0" >price</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col0" class="data row0 col0" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col1" class="data row0 col1" >-0.00077</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col2" class="data row0 col2" >-0.021</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col3" class="data row0 col3" >-0.006</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col4" class="data row0 col4" >-0.098</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col5" class="data row0 col5" >0.049</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col6" class="data row0 col6" >-0.19</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col7" class="data row0 col7" >0.033</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col8" class="data row0 col8" >-0.18</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col9" class="data row0 col9" >-0.0093</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col10" class="data row0 col10" >-0.0039</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col11" class="data row0 col11" >0.032</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row0_col12" class="data row0 col12" >-0.18</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row1" class="row_heading level0 row1" >insert_date_hour</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col0" class="data row1 col0" >-0.00077</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col1" class="data row1 col1" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col2" class="data row1 col2" >0.011</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col3" class="data row1 col3" >-0.0073</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col4" class="data row1 col4" >0.012</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col5" class="data row1 col5" >-0.0011</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col6" class="data row1 col6" >-0.0029</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col7" class="data row1 col7" >-0.0029</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col8" class="data row1 col8" >0.018</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col9" class="data row1 col9" >-0.0011</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col10" class="data row1 col10" >-3.1e-05</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col11" class="data row1 col11" >-0.0029</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row1_col12" class="data row1 col12" >0.018</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row1" class="row_heading level0 row1" >insert_date_hour</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col0" class="data row1 col0" >-0.00077</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col1" class="data row1 col1" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col2" class="data row1 col2" >0.011</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col3" class="data row1 col3" >-0.0073</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col4" class="data row1 col4" >0.012</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col5" class="data row1 col5" >-0.0011</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col6" class="data row1 col6" >-0.0029</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col7" class="data row1 col7" >-0.0029</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col8" class="data row1 col8" >0.018</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col9" class="data row1 col9" >-0.0011</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col10" class="data row1 col10" >-3.1e-05</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col11" class="data row1 col11" >-0.0029</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row1_col12" class="data row1 col12" >0.018</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row2" class="row_heading level0 row2" >insert_date_minute</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col0" class="data row2 col0" >-0.021</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col1" class="data row2 col1" >0.011</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col2" class="data row2 col2" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col3" class="data row2 col3" >0.0035</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col4" class="data row2 col4" >0.096</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col5" class="data row2 col5" >-0.012</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col6" class="data row2 col6" >0.089</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col7" class="data row2 col7" >-0.014</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col8" class="data row2 col8" >0.085</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col9" class="data row2 col9" >0.026</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col10" class="data row2 col10" >-0.01</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col11" class="data row2 col11" >-0.014</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row2_col12" class="data row2 col12" >0.085</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row2" class="row_heading level0 row2" >insert_date_minute</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col0" class="data row2 col0" >-0.021</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col1" class="data row2 col1" >0.011</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col2" class="data row2 col2" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col3" class="data row2 col3" >0.0035</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col4" class="data row2 col4" >0.096</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col5" class="data row2 col5" >-0.012</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col6" class="data row2 col6" >0.089</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col7" class="data row2 col7" >-0.014</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col8" class="data row2 col8" >0.085</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col9" class="data row2 col9" >0.026</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col10" class="data row2 col10" >-0.01</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col11" class="data row2 col11" >-0.014</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row2_col12" class="data row2 col12" >0.085</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row3" class="row_heading level0 row3" >insert_date_day</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col0" class="data row3 col0" >-0.006</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col1" class="data row3 col1" >-0.0073</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col2" class="data row3 col2" >0.0035</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col3" class="data row3 col3" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col4" class="data row3 col4" >-0.27</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col5" class="data row3 col5" >0.00017</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col6" class="data row3 col6" >0.0019</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col7" class="data row3 col7" >0.001</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col8" class="data row3 col8" >-0.054</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col9" class="data row3 col9" >-0.0014</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col10" class="data row3 col10" >0.0021</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col11" class="data row3 col11" >0.00077</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row3_col12" class="data row3 col12" >-0.054</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row3" class="row_heading level0 row3" >insert_date_day</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col0" class="data row3 col0" >-0.006</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col1" class="data row3 col1" >-0.0073</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col2" class="data row3 col2" >0.0035</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col3" class="data row3 col3" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col4" class="data row3 col4" >-0.27</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col5" class="data row3 col5" >0.00017</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col6" class="data row3 col6" >0.0019</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col7" class="data row3 col7" >0.001</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col8" class="data row3 col8" >-0.054</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col9" class="data row3 col9" >-0.0014</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col10" class="data row3 col10" >0.0021</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col11" class="data row3 col11" >0.00077</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row3_col12" class="data row3 col12" >-0.054</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row4" class="row_heading level0 row4" >insert_date_month</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col0" class="data row4 col0" >-0.098</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col1" class="data row4 col1" >0.012</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col2" class="data row4 col2" >0.096</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col3" class="data row4 col3" >-0.27</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col4" class="data row4 col4" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col5" class="data row4 col5" >-0.00023</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col6" class="data row4 col6" >0.013</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col7" class="data row4 col7" >-0.084</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col8" class="data row4 col8" >0.88</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col9" class="data row4 col9" >-0.0074</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col10" class="data row4 col10" >-0.028</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col11" class="data row4 col11" >-0.084</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row4_col12" class="data row4 col12" >0.88</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row4" class="row_heading level0 row4" >insert_date_month</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col0" class="data row4 col0" >-0.098</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col1" class="data row4 col1" >0.012</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col2" class="data row4 col2" >0.096</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col3" class="data row4 col3" >-0.27</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col4" class="data row4 col4" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col5" class="data row4 col5" >-0.00023</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col6" class="data row4 col6" >0.013</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col7" class="data row4 col7" >-0.084</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col8" class="data row4 col8" >0.88</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col9" class="data row4 col9" >-0.0074</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col10" class="data row4 col10" >-0.028</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col11" class="data row4 col11" >-0.084</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row4_col12" class="data row4 col12" >0.88</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row5" class="row_heading level0 row5" >start_date_hour</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col0" class="data row5 col0" >0.049</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col1" class="data row5 col1" >-0.0011</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col2" class="data row5 col2" >-0.012</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col3" class="data row5 col3" >0.00017</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col4" class="data row5 col4" >-0.00023</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col5" class="data row5 col5" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col6" class="data row5 col6" >-0.087</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col7" class="data row5 col7" >0.004</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col8" class="data row5 col8" >-0.004</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col9" class="data row5 col9" >0.72</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col10" class="data row5 col10" >0.028</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col11" class="data row5 col11" >0.0038</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row5_col12" class="data row5 col12" >-0.0031</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row5" class="row_heading level0 row5" >start_date_hour</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col0" class="data row5 col0" >0.049</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col1" class="data row5 col1" >-0.0011</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col2" class="data row5 col2" >-0.012</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col3" class="data row5 col3" >0.00017</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col4" class="data row5 col4" >-0.00023</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col5" class="data row5 col5" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col6" class="data row5 col6" >-0.087</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col7" class="data row5 col7" >0.004</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col8" class="data row5 col8" >-0.004</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col9" class="data row5 col9" >0.72</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col10" class="data row5 col10" >0.028</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col11" class="data row5 col11" >0.0038</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row5_col12" class="data row5 col12" >-0.0031</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row6" class="row_heading level0 row6" >start_date_minute</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col0" class="data row6 col0" >-0.19</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col1" class="data row6 col1" >-0.0029</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col2" class="data row6 col2" >0.089</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col3" class="data row6 col3" >0.0019</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col4" class="data row6 col4" >0.013</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col5" class="data row6 col5" >-0.087</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col6" class="data row6 col6" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col7" class="data row6 col7" >-0.00028</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col8" class="data row6 col8" >0.013</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col9" class="data row6 col9" >0.038</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col10" class="data row6 col10" >-0.11</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col11" class="data row6 col11" >1.8e-05</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row6_col12" class="data row6 col12" >0.013</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row6" class="row_heading level0 row6" >start_date_minute</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col0" class="data row6 col0" >-0.19</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col1" class="data row6 col1" >-0.0029</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col2" class="data row6 col2" >0.089</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col3" class="data row6 col3" >0.0019</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col4" class="data row6 col4" >0.013</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col5" class="data row6 col5" >-0.087</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col6" class="data row6 col6" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col7" class="data row6 col7" >-0.00028</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col8" class="data row6 col8" >0.013</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col9" class="data row6 col9" >0.038</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col10" class="data row6 col10" >-0.11</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col11" class="data row6 col11" >1.8e-05</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row6_col12" class="data row6 col12" >0.013</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row7" class="row_heading level0 row7" >start_date_day</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col0" class="data row7 col0" >0.033</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col1" class="data row7 col1" >-0.0029</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col2" class="data row7 col2" >-0.014</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col3" class="data row7 col3" >0.001</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col4" class="data row7 col4" >-0.084</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col5" class="data row7 col5" >0.004</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col6" class="data row7 col6" >-0.00028</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col7" class="data row7 col7" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col8" class="data row7 col8" >-0.29</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col9" class="data row7 col9" >0.0023</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col10" class="data row7 col10" >0.0064</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col11" class="data row7 col11" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row7_col12" class="data row7 col12" >-0.29</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row7" class="row_heading level0 row7" >start_date_day</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col0" class="data row7 col0" >0.033</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col1" class="data row7 col1" >-0.0029</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col2" class="data row7 col2" >-0.014</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col3" class="data row7 col3" >0.001</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col4" class="data row7 col4" >-0.084</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col5" class="data row7 col5" >0.004</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col6" class="data row7 col6" >-0.00028</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col7" class="data row7 col7" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col8" class="data row7 col8" >-0.29</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col9" class="data row7 col9" >0.0023</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col10" class="data row7 col10" >0.0064</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col11" class="data row7 col11" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row7_col12" class="data row7 col12" >-0.29</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row8" class="row_heading level0 row8" >start_date_month</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col0" class="data row8 col0" >-0.18</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col1" class="data row8 col1" >0.018</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col2" class="data row8 col2" >0.085</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col3" class="data row8 col3" >-0.054</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col4" class="data row8 col4" >0.88</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col5" class="data row8 col5" >-0.004</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col6" class="data row8 col6" >0.013</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col7" class="data row8 col7" >-0.29</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col8" class="data row8 col8" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col9" class="data row8 col9" >-0.0078</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col10" class="data row8 col10" >-0.029</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col11" class="data row8 col11" >-0.29</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row8_col12" class="data row8 col12" >1</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row8" class="row_heading level0 row8" >start_date_month</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col0" class="data row8 col0" >-0.18</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col1" class="data row8 col1" >0.018</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col2" class="data row8 col2" >0.085</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col3" class="data row8 col3" >-0.054</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col4" class="data row8 col4" >0.88</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col5" class="data row8 col5" >-0.004</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col6" class="data row8 col6" >0.013</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col7" class="data row8 col7" >-0.29</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col8" class="data row8 col8" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col9" class="data row8 col9" >-0.0078</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col10" class="data row8 col10" >-0.029</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col11" class="data row8 col11" >-0.29</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row8_col12" class="data row8 col12" >1</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row9" class="row_heading level0 row9" >end_date_hour</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col0" class="data row9 col0" >-0.0093</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col1" class="data row9 col1" >-0.0011</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col2" class="data row9 col2" >0.026</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col3" class="data row9 col3" >-0.0014</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col4" class="data row9 col4" >-0.0074</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col5" class="data row9 col5" >0.72</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col6" class="data row9 col6" >0.038</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col7" class="data row9 col7" >0.0023</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col8" class="data row9 col8" >-0.0078</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col9" class="data row9 col9" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col10" class="data row9 col10" >0.063</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col11" class="data row9 col11" >0.0027</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row9_col12" class="data row9 col12" >-0.0092</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row9" class="row_heading level0 row9" >end_date_hour</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col0" class="data row9 col0" >-0.0093</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col1" class="data row9 col1" >-0.0011</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col2" class="data row9 col2" >0.026</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col3" class="data row9 col3" >-0.0014</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col4" class="data row9 col4" >-0.0074</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col5" class="data row9 col5" >0.72</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col6" class="data row9 col6" >0.038</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col7" class="data row9 col7" >0.0023</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col8" class="data row9 col8" >-0.0078</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col9" class="data row9 col9" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col10" class="data row9 col10" >0.063</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col11" class="data row9 col11" >0.0027</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row9_col12" class="data row9 col12" >-0.0092</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row10" class="row_heading level0 row10" >end_date_minute</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col0" class="data row10 col0" >-0.0039</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col1" class="data row10 col1" >-3.1e-05</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col2" class="data row10 col2" >-0.01</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col3" class="data row10 col3" >0.0021</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col4" class="data row10 col4" >-0.028</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col5" class="data row10 col5" >0.028</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col6" class="data row10 col6" >-0.11</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col7" class="data row10 col7" >0.0064</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col8" class="data row10 col8" >-0.029</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col9" class="data row10 col9" >0.063</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col10" class="data row10 col10" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col11" class="data row10 col11" >0.0066</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row10_col12" class="data row10 col12" >-0.03</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row10" class="row_heading level0 row10" >end_date_minute</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col0" class="data row10 col0" >-0.0039</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col1" class="data row10 col1" >-3.1e-05</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col2" class="data row10 col2" >-0.01</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col3" class="data row10 col3" >0.0021</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col4" class="data row10 col4" >-0.028</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col5" class="data row10 col5" >0.028</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col6" class="data row10 col6" >-0.11</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col7" class="data row10 col7" >0.0064</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col8" class="data row10 col8" >-0.029</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col9" class="data row10 col9" >0.063</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col10" class="data row10 col10" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col11" class="data row10 col11" >0.0066</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row10_col12" class="data row10 col12" >-0.03</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row11" class="row_heading level0 row11" >end_date_day</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col0" class="data row11 col0" >0.032</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col1" class="data row11 col1" >-0.0029</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col2" class="data row11 col2" >-0.014</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col3" class="data row11 col3" >0.00077</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col4" class="data row11 col4" >-0.084</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col5" class="data row11 col5" >0.0038</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col6" class="data row11 col6" >1.8e-05</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col7" class="data row11 col7" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col8" class="data row11 col8" >-0.29</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col9" class="data row11 col9" >0.0027</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col10" class="data row11 col10" >0.0066</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col11" class="data row11 col11" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row11_col12" class="data row11 col12" >-0.29</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row11" class="row_heading level0 row11" >end_date_day</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col0" class="data row11 col0" >0.032</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col1" class="data row11 col1" >-0.0029</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col2" class="data row11 col2" >-0.014</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col3" class="data row11 col3" >0.00077</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col4" class="data row11 col4" >-0.084</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col5" class="data row11 col5" >0.0038</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col6" class="data row11 col6" >1.8e-05</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col7" class="data row11 col7" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col8" class="data row11 col8" >-0.29</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col9" class="data row11 col9" >0.0027</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col10" class="data row11 col10" >0.0066</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col11" class="data row11 col11" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row11_col12" class="data row11 col12" >-0.29</td>
             </tr>
             <tr>
-                        <th id="T_77c0ae40_f348_11e9_978a_7470fdc90652level0_row12" class="row_heading level0 row12" >end_date_month</th>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col0" class="data row12 col0" >-0.18</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col1" class="data row12 col1" >0.018</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col2" class="data row12 col2" >0.085</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col3" class="data row12 col3" >-0.054</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col4" class="data row12 col4" >0.88</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col5" class="data row12 col5" >-0.0031</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col6" class="data row12 col6" >0.013</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col7" class="data row12 col7" >-0.29</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col8" class="data row12 col8" >1</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col9" class="data row12 col9" >-0.0092</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col10" class="data row12 col10" >-0.03</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col11" class="data row12 col11" >-0.29</td>
-                        <td id="T_77c0ae40_f348_11e9_978a_7470fdc90652row12_col12" class="data row12 col12" >1</td>
+                        <th id="T_601cf458_f8df_11e9_a3b0_7470fdc90652level0_row12" class="row_heading level0 row12" >end_date_month</th>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col0" class="data row12 col0" >-0.18</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col1" class="data row12 col1" >0.018</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col2" class="data row12 col2" >0.085</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col3" class="data row12 col3" >-0.054</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col4" class="data row12 col4" >0.88</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col5" class="data row12 col5" >-0.0031</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col6" class="data row12 col6" >0.013</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col7" class="data row12 col7" >-0.29</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col8" class="data row12 col8" >1</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col9" class="data row12 col9" >-0.0092</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col10" class="data row12 col10" >-0.03</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col11" class="data row12 col11" >-0.29</td>
+                        <td id="T_601cf458_f8df_11e9_a3b0_7470fdc90652row12_col12" class="data row12 col12" >1</td>
             </tr>
     </tbody></table>
 </div>
@@ -15441,7 +16092,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[91]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;end_date_day&#39;</span><span class="p">,</span> <span class="s1">&#39;end_date_month&#39;</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
@@ -15454,7 +16105,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[109]:</div>
+<div class="prompt input_prompt">In&nbsp;[92]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Reduced </span>
@@ -15472,529 +16123,529 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[109]:</div>
+    <div class="prompt output_prompt">Out[92]:</div>
 
 
 
 <div class="output_html rendered_html output_subarea output_execute_result">
 <style  type="text/css" >
-    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col0 {
+    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col0 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col2 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col3 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col4 {
             background-color:  #472f7d;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col5 {
             background-color:  #472d7b;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col6 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col7 {
             background-color:  #3b528b;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col8 {
             background-color:  #481f70;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col9 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row0_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col10 {
             background-color:  #482374;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col0 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col1 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col2 {
             background-color:  #470d60;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col3 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col4 {
             background-color:  #3e4989;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col5 {
             background-color:  #481d6f;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col6 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col7 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col8 {
             background-color:  #3c4f8a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col9 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row1_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col10 {
             background-color:  #482475;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col0 {
             background-color:  #46307e;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col1 {
             background-color:  #46075a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col2 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col4 {
             background-color:  #365c8d;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col5 {
             background-color:  #481a6c;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col6 {
             background-color:  #3d4d8a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col7 {
             background-color:  #3f4889;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col8 {
             background-color:  #365d8d;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col9 {
             background-color:  #470d60;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row2_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col10 {
             background-color:  #482173;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col0 {
             background-color:  #463480;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col1 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col2 {
             background-color:  #460a5d;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col3 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col4 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col5 {
             background-color:  #481d6f;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col6 {
             background-color:  #453781;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col7 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col8 {
             background-color:  #423f85;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col9 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row3_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col10 {
             background-color:  #482475;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col0 {
             background-color:  #481b6d;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col1 {
             background-color:  #46075a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col2 {
             background-color:  #482979;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col3 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col4 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col5 {
             background-color:  #481d6f;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col6 {
             background-color:  #443983;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col7 {
             background-color:  #453882;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col8 {
             background-color:  #c2df23;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col9 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row4_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col10 {
             background-color:  #481c6e;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col0 {
             background-color:  #414287;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col2 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col4 {
             background-color:  #404688;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col5 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col6 {
             background-color:  #481f70;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col7 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col8 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col9 {
             background-color:  #50c46a;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row5_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col10 {
             background-color:  #472c7a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col0 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col2 {
             background-color:  #482677;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col4 {
             background-color:  #3e4989;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col5 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col6 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col7 {
             background-color:  #3e4a89;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col8 {
             background-color:  #3d4e8a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col9 {
             background-color:  #471365;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row6_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col10 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col0 {
             background-color:  #423f85;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col2 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col4 {
             background-color:  #46327e;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col5 {
             background-color:  #481f70;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col6 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col7 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col8 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col9 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row7_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col10 {
             background-color:  #482576;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col0 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col1 {
             background-color:  #460a5d;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col2 {
             background-color:  #482576;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col3 {
             background-color:  #443983;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col4 {
             background-color:  #c2df23;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col5 {
             background-color:  #481c6e;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col6 {
             background-color:  #443983;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col7 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col8 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col9 {
             background-color:  #440154;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row8_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col10 {
             background-color:  #481b6d;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col0 {
             background-color:  #46337f;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col2 {
             background-color:  #471164;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col3 {
             background-color:  #404688;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col4 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col5 {
             background-color:  #5ac864;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col6 {
             background-color:  #424086;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col7 {
             background-color:  #3e4c8a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col8 {
             background-color:  #3e4989;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col9 {
             background-color:  #fde725;
             color:  #000000;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row9_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col10 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col0 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col0 {
             background-color:  #453581;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col1 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col1 {
             background-color:  #440256;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col2 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col2 {
             background-color:  #450457;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col3 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col3 {
             background-color:  #3f4788;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col4 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col4 {
             background-color:  #424086;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col5 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col5 {
             background-color:  #482576;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col6 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col6 {
             background-color:  #48186a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col7 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col7 {
             background-color:  #3d4d8a;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col8 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col8 {
             background-color:  #404588;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col9 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col9 {
             background-color:  #481b6d;
             color:  #f1f1f1;
-        }    #T_264b65c8_f354_11e9_b032_7470fdc90652row10_col10 {
+        }    #T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col10 {
             background-color:  #fde725;
             color:  #000000;
-        }</style><table id="T_264b65c8_f354_11e9_b032_7470fdc90652" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >price</th>        <th class="col_heading level0 col1" >insert_date_hour</th>        <th class="col_heading level0 col2" >insert_date_minute</th>        <th class="col_heading level0 col3" >insert_date_day</th>        <th class="col_heading level0 col4" >insert_date_month</th>        <th class="col_heading level0 col5" >start_date_hour</th>        <th class="col_heading level0 col6" >start_date_minute</th>        <th class="col_heading level0 col7" >start_date_day</th>        <th class="col_heading level0 col8" >start_date_month</th>        <th class="col_heading level0 col9" >end_date_hour</th>        <th class="col_heading level0 col10" >end_date_minute</th>    </tr></thead><tbody>
+        }</style><table id="T_6d667746_f8df_11e9_bcb4_7470fdc90652" ><thead>    <tr>        <th class="blank level0" ></th>        <th class="col_heading level0 col0" >price</th>        <th class="col_heading level0 col1" >insert_date_hour</th>        <th class="col_heading level0 col2" >insert_date_minute</th>        <th class="col_heading level0 col3" >insert_date_day</th>        <th class="col_heading level0 col4" >insert_date_month</th>        <th class="col_heading level0 col5" >start_date_hour</th>        <th class="col_heading level0 col6" >start_date_minute</th>        <th class="col_heading level0 col7" >start_date_day</th>        <th class="col_heading level0 col8" >start_date_month</th>        <th class="col_heading level0 col9" >end_date_hour</th>        <th class="col_heading level0 col10" >end_date_minute</th>    </tr></thead><tbody>
                 <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row0" class="row_heading level0 row0" >price</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col0" class="data row0 col0" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col1" class="data row0 col1" >-0.00077</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col2" class="data row0 col2" >-0.021</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col3" class="data row0 col3" >-0.006</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col4" class="data row0 col4" >-0.098</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col5" class="data row0 col5" >0.049</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col6" class="data row0 col6" >-0.19</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col7" class="data row0 col7" >0.033</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col8" class="data row0 col8" >-0.18</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col9" class="data row0 col9" >-0.0093</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row0_col10" class="data row0 col10" >-0.0039</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row0" class="row_heading level0 row0" >price</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col0" class="data row0 col0" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col1" class="data row0 col1" >-0.00077</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col2" class="data row0 col2" >-0.021</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col3" class="data row0 col3" >-0.006</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col4" class="data row0 col4" >-0.098</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col5" class="data row0 col5" >0.049</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col6" class="data row0 col6" >-0.19</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col7" class="data row0 col7" >0.033</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col8" class="data row0 col8" >-0.18</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col9" class="data row0 col9" >-0.0093</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row0_col10" class="data row0 col10" >-0.0039</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row1" class="row_heading level0 row1" >insert_date_hour</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col0" class="data row1 col0" >-0.00077</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col1" class="data row1 col1" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col2" class="data row1 col2" >0.011</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col3" class="data row1 col3" >-0.0073</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col4" class="data row1 col4" >0.012</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col5" class="data row1 col5" >-0.0011</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col6" class="data row1 col6" >-0.0029</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col7" class="data row1 col7" >-0.0029</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col8" class="data row1 col8" >0.018</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col9" class="data row1 col9" >-0.0011</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row1_col10" class="data row1 col10" >-3.1e-05</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row1" class="row_heading level0 row1" >insert_date_hour</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col0" class="data row1 col0" >-0.00077</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col1" class="data row1 col1" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col2" class="data row1 col2" >0.011</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col3" class="data row1 col3" >-0.0073</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col4" class="data row1 col4" >0.012</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col5" class="data row1 col5" >-0.0011</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col6" class="data row1 col6" >-0.0029</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col7" class="data row1 col7" >-0.0029</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col8" class="data row1 col8" >0.018</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col9" class="data row1 col9" >-0.0011</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row1_col10" class="data row1 col10" >-3.1e-05</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row2" class="row_heading level0 row2" >insert_date_minute</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col0" class="data row2 col0" >-0.021</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col1" class="data row2 col1" >0.011</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col2" class="data row2 col2" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col3" class="data row2 col3" >0.0035</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col4" class="data row2 col4" >0.096</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col5" class="data row2 col5" >-0.012</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col6" class="data row2 col6" >0.089</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col7" class="data row2 col7" >-0.014</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col8" class="data row2 col8" >0.085</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col9" class="data row2 col9" >0.026</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row2_col10" class="data row2 col10" >-0.01</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row2" class="row_heading level0 row2" >insert_date_minute</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col0" class="data row2 col0" >-0.021</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col1" class="data row2 col1" >0.011</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col2" class="data row2 col2" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col3" class="data row2 col3" >0.0035</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col4" class="data row2 col4" >0.096</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col5" class="data row2 col5" >-0.012</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col6" class="data row2 col6" >0.089</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col7" class="data row2 col7" >-0.014</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col8" class="data row2 col8" >0.085</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col9" class="data row2 col9" >0.026</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row2_col10" class="data row2 col10" >-0.01</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row3" class="row_heading level0 row3" >insert_date_day</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col0" class="data row3 col0" >-0.006</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col1" class="data row3 col1" >-0.0073</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col2" class="data row3 col2" >0.0035</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col3" class="data row3 col3" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col4" class="data row3 col4" >-0.27</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col5" class="data row3 col5" >0.00017</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col6" class="data row3 col6" >0.0019</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col7" class="data row3 col7" >0.001</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col8" class="data row3 col8" >-0.054</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col9" class="data row3 col9" >-0.0014</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row3_col10" class="data row3 col10" >0.0021</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row3" class="row_heading level0 row3" >insert_date_day</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col0" class="data row3 col0" >-0.006</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col1" class="data row3 col1" >-0.0073</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col2" class="data row3 col2" >0.0035</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col3" class="data row3 col3" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col4" class="data row3 col4" >-0.27</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col5" class="data row3 col5" >0.00017</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col6" class="data row3 col6" >0.0019</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col7" class="data row3 col7" >0.001</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col8" class="data row3 col8" >-0.054</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col9" class="data row3 col9" >-0.0014</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row3_col10" class="data row3 col10" >0.0021</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row4" class="row_heading level0 row4" >insert_date_month</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col0" class="data row4 col0" >-0.098</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col1" class="data row4 col1" >0.012</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col2" class="data row4 col2" >0.096</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col3" class="data row4 col3" >-0.27</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col4" class="data row4 col4" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col5" class="data row4 col5" >-0.00023</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col6" class="data row4 col6" >0.013</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col7" class="data row4 col7" >-0.084</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col8" class="data row4 col8" >0.88</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col9" class="data row4 col9" >-0.0074</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row4_col10" class="data row4 col10" >-0.028</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row4" class="row_heading level0 row4" >insert_date_month</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col0" class="data row4 col0" >-0.098</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col1" class="data row4 col1" >0.012</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col2" class="data row4 col2" >0.096</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col3" class="data row4 col3" >-0.27</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col4" class="data row4 col4" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col5" class="data row4 col5" >-0.00023</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col6" class="data row4 col6" >0.013</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col7" class="data row4 col7" >-0.084</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col8" class="data row4 col8" >0.88</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col9" class="data row4 col9" >-0.0074</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row4_col10" class="data row4 col10" >-0.028</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row5" class="row_heading level0 row5" >start_date_hour</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col0" class="data row5 col0" >0.049</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col1" class="data row5 col1" >-0.0011</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col2" class="data row5 col2" >-0.012</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col3" class="data row5 col3" >0.00017</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col4" class="data row5 col4" >-0.00023</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col5" class="data row5 col5" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col6" class="data row5 col6" >-0.087</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col7" class="data row5 col7" >0.004</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col8" class="data row5 col8" >-0.004</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col9" class="data row5 col9" >0.72</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row5_col10" class="data row5 col10" >0.028</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row5" class="row_heading level0 row5" >start_date_hour</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col0" class="data row5 col0" >0.049</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col1" class="data row5 col1" >-0.0011</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col2" class="data row5 col2" >-0.012</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col3" class="data row5 col3" >0.00017</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col4" class="data row5 col4" >-0.00023</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col5" class="data row5 col5" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col6" class="data row5 col6" >-0.087</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col7" class="data row5 col7" >0.004</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col8" class="data row5 col8" >-0.004</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col9" class="data row5 col9" >0.72</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row5_col10" class="data row5 col10" >0.028</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row6" class="row_heading level0 row6" >start_date_minute</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col0" class="data row6 col0" >-0.19</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col1" class="data row6 col1" >-0.0029</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col2" class="data row6 col2" >0.089</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col3" class="data row6 col3" >0.0019</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col4" class="data row6 col4" >0.013</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col5" class="data row6 col5" >-0.087</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col6" class="data row6 col6" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col7" class="data row6 col7" >-0.00028</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col8" class="data row6 col8" >0.013</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col9" class="data row6 col9" >0.038</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row6_col10" class="data row6 col10" >-0.11</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row6" class="row_heading level0 row6" >start_date_minute</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col0" class="data row6 col0" >-0.19</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col1" class="data row6 col1" >-0.0029</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col2" class="data row6 col2" >0.089</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col3" class="data row6 col3" >0.0019</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col4" class="data row6 col4" >0.013</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col5" class="data row6 col5" >-0.087</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col6" class="data row6 col6" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col7" class="data row6 col7" >-0.00028</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col8" class="data row6 col8" >0.013</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col9" class="data row6 col9" >0.038</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row6_col10" class="data row6 col10" >-0.11</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row7" class="row_heading level0 row7" >start_date_day</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col0" class="data row7 col0" >0.033</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col1" class="data row7 col1" >-0.0029</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col2" class="data row7 col2" >-0.014</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col3" class="data row7 col3" >0.001</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col4" class="data row7 col4" >-0.084</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col5" class="data row7 col5" >0.004</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col6" class="data row7 col6" >-0.00028</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col7" class="data row7 col7" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col8" class="data row7 col8" >-0.29</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col9" class="data row7 col9" >0.0023</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row7_col10" class="data row7 col10" >0.0064</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row7" class="row_heading level0 row7" >start_date_day</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col0" class="data row7 col0" >0.033</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col1" class="data row7 col1" >-0.0029</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col2" class="data row7 col2" >-0.014</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col3" class="data row7 col3" >0.001</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col4" class="data row7 col4" >-0.084</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col5" class="data row7 col5" >0.004</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col6" class="data row7 col6" >-0.00028</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col7" class="data row7 col7" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col8" class="data row7 col8" >-0.29</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col9" class="data row7 col9" >0.0023</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row7_col10" class="data row7 col10" >0.0064</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row8" class="row_heading level0 row8" >start_date_month</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col0" class="data row8 col0" >-0.18</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col1" class="data row8 col1" >0.018</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col2" class="data row8 col2" >0.085</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col3" class="data row8 col3" >-0.054</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col4" class="data row8 col4" >0.88</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col5" class="data row8 col5" >-0.004</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col6" class="data row8 col6" >0.013</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col7" class="data row8 col7" >-0.29</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col8" class="data row8 col8" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col9" class="data row8 col9" >-0.0078</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row8_col10" class="data row8 col10" >-0.029</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row8" class="row_heading level0 row8" >start_date_month</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col0" class="data row8 col0" >-0.18</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col1" class="data row8 col1" >0.018</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col2" class="data row8 col2" >0.085</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col3" class="data row8 col3" >-0.054</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col4" class="data row8 col4" >0.88</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col5" class="data row8 col5" >-0.004</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col6" class="data row8 col6" >0.013</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col7" class="data row8 col7" >-0.29</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col8" class="data row8 col8" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col9" class="data row8 col9" >-0.0078</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row8_col10" class="data row8 col10" >-0.029</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row9" class="row_heading level0 row9" >end_date_hour</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col0" class="data row9 col0" >-0.0093</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col1" class="data row9 col1" >-0.0011</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col2" class="data row9 col2" >0.026</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col3" class="data row9 col3" >-0.0014</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col4" class="data row9 col4" >-0.0074</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col5" class="data row9 col5" >0.72</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col6" class="data row9 col6" >0.038</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col7" class="data row9 col7" >0.0023</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col8" class="data row9 col8" >-0.0078</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col9" class="data row9 col9" >1</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row9_col10" class="data row9 col10" >0.063</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row9" class="row_heading level0 row9" >end_date_hour</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col0" class="data row9 col0" >-0.0093</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col1" class="data row9 col1" >-0.0011</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col2" class="data row9 col2" >0.026</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col3" class="data row9 col3" >-0.0014</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col4" class="data row9 col4" >-0.0074</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col5" class="data row9 col5" >0.72</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col6" class="data row9 col6" >0.038</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col7" class="data row9 col7" >0.0023</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col8" class="data row9 col8" >-0.0078</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col9" class="data row9 col9" >1</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row9_col10" class="data row9 col10" >0.063</td>
             </tr>
             <tr>
-                        <th id="T_264b65c8_f354_11e9_b032_7470fdc90652level0_row10" class="row_heading level0 row10" >end_date_minute</th>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col0" class="data row10 col0" >-0.0039</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col1" class="data row10 col1" >-3.1e-05</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col2" class="data row10 col2" >-0.01</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col3" class="data row10 col3" >0.0021</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col4" class="data row10 col4" >-0.028</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col5" class="data row10 col5" >0.028</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col6" class="data row10 col6" >-0.11</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col7" class="data row10 col7" >0.0064</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col8" class="data row10 col8" >-0.029</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col9" class="data row10 col9" >0.063</td>
-                        <td id="T_264b65c8_f354_11e9_b032_7470fdc90652row10_col10" class="data row10 col10" >1</td>
+                        <th id="T_6d667746_f8df_11e9_bcb4_7470fdc90652level0_row10" class="row_heading level0 row10" >end_date_minute</th>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col0" class="data row10 col0" >-0.0039</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col1" class="data row10 col1" >-3.1e-05</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col2" class="data row10 col2" >-0.01</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col3" class="data row10 col3" >0.0021</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col4" class="data row10 col4" >-0.028</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col5" class="data row10 col5" >0.028</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col6" class="data row10 col6" >-0.11</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col7" class="data row10 col7" >0.0064</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col8" class="data row10 col8" >-0.029</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col9" class="data row10 col9" >0.063</td>
+                        <td id="T_6d667746_f8df_11e9_bcb4_7470fdc90652row10_col10" class="data row10 col10" >1</td>
             </tr>
     </tbody></table>
 </div>
@@ -16007,7 +16658,7 @@ dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[93]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Check Price</span>
@@ -16025,7 +16676,7 @@ dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[28]:</div>
+    <div class="prompt output_prompt">Out[93]:</div>
 
 
 
@@ -16047,7 +16698,7 @@ Name: price, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[94]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">check_price</span><span class="o">.</span><span class="n">tail</span><span class="p">()</span>
@@ -16063,7 +16714,7 @@ Name: price, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[29]:</div>
+    <div class="prompt output_prompt">Out[94]:</div>
 
 
 
@@ -16087,9 +16738,9 @@ Name: price, dtype: int64</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let's take a closer at price, it seems to be numerical, but with a certain number of categories.</p>
-<p>So, Although price is categorical, there's an important imbalance in the dataset. Prices such as $85.10 is extremely frequent, whereas $14.60 appears only once. This is likely because the former is a standard price, and the latter is a one-time discounted price.</p>
+<p>So, Although price is categorical, there's an important imbalance in the dataset. Prices such as $85.10 is extremely frequent, whereas $64.10 appears only once. This is likely because the former is a standard price, and the latter is a one-time discounted price.</p>
 <p>It is therefore wise to try to predict a numerical price rather than a making it a classification problem. We can now split the data into X and y</p>
-<p>We will need to process the categorical data to be ready for input. The usual way to do that is to use pd.get_dummies or sklearn.preprocessing.OneHotEncoder. The former is more polyvalent, but the latter lets you output a sparse matrix instead of a regular numpy array. This is good for saving memory.</p>
+<p>We will need to process the categorical data to be ready for input. The usual way to do that is to use sklearn.preprocessing.OneHotEncoder.</p>
 
 </div>
 </div>
@@ -16127,7 +16778,7 @@ Name: price, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[95]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s1">&#39;price&#39;</span><span class="p">,</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">)</span>
@@ -16141,7 +16792,7 @@ Name: price, dtype: int64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[96]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">y</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
@@ -16158,7 +16809,7 @@ Name: price, dtype: int64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[31]:</div>
+    <div class="prompt output_prompt">Out[96]:</div>
 
 
 
@@ -16179,7 +16830,180 @@ Name: price, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt output_prompt">Out[97]:</div>
+
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>insert_date</th>
+      <th>origin</th>
+      <th>destination</th>
+      <th>start_date</th>
+      <th>end_date</th>
+      <th>train_type</th>
+      <th>train_class</th>
+      <th>fare</th>
+      <th>origin_dest</th>
+      <th>insert_date_hour</th>
+      <th>...</th>
+      <th>insert_date_day</th>
+      <th>insert_date_month</th>
+      <th>start_date_hour</th>
+      <th>start_date_minute</th>
+      <th>start_date_weekday</th>
+      <th>start_date_day</th>
+      <th>start_date_month</th>
+      <th>end_date_hour</th>
+      <th>end_date_minute</th>
+      <th>end_date_weekday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 05:50:00</td>
+      <td>2019-04-18 08:55:00</td>
+      <td>AVE</td>
+      <td>Preferente</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>21</td>
+      <td>...</td>
+      <td>11</td>
+      <td>4</td>
+      <td>5</td>
+      <td>50</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>8</td>
+      <td>55</td>
+      <td>Thursday</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 06:30:00</td>
+      <td>2019-04-18 09:20:00</td>
+      <td>AVE</td>
+      <td>Turista</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>21</td>
+      <td>...</td>
+      <td>11</td>
+      <td>4</td>
+      <td>6</td>
+      <td>30</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>9</td>
+      <td>20</td>
+      <td>Thursday</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 07:00:00</td>
+      <td>2019-04-18 09:30:00</td>
+      <td>AVE</td>
+      <td>Turista Plus</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>21</td>
+      <td>...</td>
+      <td>11</td>
+      <td>4</td>
+      <td>7</td>
+      <td>0</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>9</td>
+      <td>30</td>
+      <td>Thursday</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>2019-04-11 21:49:46</td>
+      <td>MADRID</td>
+      <td>BARCELONA</td>
+      <td>2019-04-18 07:30:00</td>
+      <td>2019-04-18 10:40:00</td>
+      <td>AVE</td>
+      <td>Turista Plus</td>
+      <td>Promo</td>
+      <td>MADRID-BARCELONA</td>
+      <td>21</td>
+      <td>...</td>
+      <td>11</td>
+      <td>4</td>
+      <td>7</td>
+      <td>30</td>
+      <td>Thursday</td>
+      <td>18</td>
+      <td>4</td>
+      <td>10</td>
+      <td>40</td>
+      <td>Thursday</td>
+    </tr>
+  </tbody>
+</table>
+<p>4 rows × 22 columns</p>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[98]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Estimators and metrics </span>
@@ -16202,7 +17026,7 @@ Name: price, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[99]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;insert_date&#39;</span><span class="p">,</span> <span class="s1">&#39;start_date&#39;</span><span class="p">,</span><span class="s1">&#39;end_date&#39;</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
@@ -16215,7 +17039,7 @@ Name: price, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[100]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">onehot</span> <span class="o">=</span> <span class="n">OneHotEncoder</span><span class="p">()</span>
@@ -16229,7 +17053,7 @@ Name: price, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[101]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">category</span> <span class="ow">in</span> <span class="n">onehot</span><span class="o">.</span><span class="n">categories_</span><span class="p">:</span> <span class="nb">print</span><span class="p">(</span><span class="n">category</span><span class="p">)</span>
@@ -16299,11 +17123,24 @@ Name: price, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[102]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#SPLIT DATA IN TRAINING AND TESTING </span>
 <span class="n">x_train</span><span class="p">,</span> <span class="n">x_test</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">y_test</span> <span class="o">=</span> <span class="n">train_test_split</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#x_train.shape, x_test.shape, y_train.shape, y_test.shape</span>
 </pre></div>
 
     </div>
@@ -16321,7 +17158,7 @@ Name: price, dtype: float64</pre>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[38]:</div>
+<div class="prompt input_prompt">In&nbsp;[103]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">lr</span> <span class="o">=</span> <span class="n">LinearRegression</span><span class="p">()</span>
@@ -16338,7 +17175,7 @@ Name: price, dtype: float64</pre>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[38]:</div>
+    <div class="prompt output_prompt">Out[103]:</div>
 
 
 
@@ -16401,7 +17238,7 @@ The default value of cv will change from 3 to 5 in version 0.22. Specify it expl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[41]:</div>
+<div class="prompt input_prompt">In&nbsp;[104]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Simple score method that we can use om the trained model </span>
@@ -16418,13 +17255,13 @@ The default value of cv will change from 3 to 5 in version 0.22. Specify it expl
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[41]:</div>
+    <div class="prompt output_prompt">Out[104]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.8413764183741541</pre>
+<pre>0.8412472764419231</pre>
 </div>
 
 </div>
@@ -16451,7 +17288,7 @@ The default value of cv will change from 3 to 5 in version 0.22. Specify it expl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[54]:</div>
+<div class="prompt input_prompt">In&nbsp;[106]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="o">%%time</span>
@@ -16473,14 +17310,14 @@ The default value of cv will change from 3 to 5 in version 0.22. Specify it expl
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Wall time: 4min 27s
+<pre>Wall time: 4min 12s
 </pre>
 </div>
 </div>
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[54]:</div>
+    <div class="prompt output_prompt">Out[106]:</div>
 
 
 
@@ -16548,7 +17385,7 @@ The default value of cv will change from 3 to 5 in version 0.22. Specify it expl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[107]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#Simple score method that we can use om the trained model </span>
@@ -16565,13 +17402,13 @@ The default value of cv will change from 3 to 5 in version 0.22. Specify it expl
 
 <div class="output_area">
 
-    <div class="prompt output_prompt">Out[58]:</div>
+    <div class="prompt output_prompt">Out[107]:</div>
 
 
 
 
 <div class="output_text output_subarea output_execute_result">
-<pre>0.9421566870075536</pre>
+<pre>0.9413410410180006</pre>
 </div>
 
 </div>
@@ -16602,7 +17439,7 @@ The default value of cv will change from 3 to 5 in version 0.22. Specify it expl
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[59]:</div>
+<div class="prompt input_prompt">In&nbsp;[108]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">predictions</span> <span class="o">=</span> <span class="n">gb</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">x_test</span><span class="p">)</span>
@@ -16626,8 +17463,8 @@ The default value of cv will change from 3 to 5 in version 0.22. Specify it expl
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>R Squared: 0.942
-RMSE: 6.003
+<pre>R Squared: 0.941
+RMSE: 6.048
 </pre>
 </div>
 </div>
@@ -16715,9 +17552,7 @@ RMSE: 6.003
 <h5 id="Conclusion"><em>Conclusion</em><a class="anchor-link" href="#Conclusion">&#182;</a></h5><ul>
 <li><p>The model Gradient Boosting has good predictive ability.</p>
 </li>
-<li><p>We were able to fit the price of the train tickets with an R2 of 94%, this is a very good fit.</p>
-</li>
-<li><p>The price of tickets changes according to demand and time.</p>
+<li><p>Fit the price of the train tickets with an R2 of 94%.</p>
 </li>
 </ul>
 
@@ -16728,7 +17563,7 @@ RMSE: 6.003
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>We went through a simple workflow for preprocessing the dataset, then encoding and splitting it into training and test set. We then tested 3 different algorithms, in this case a Linear Regression and Gradient Boosting. We can observe that gradient boosting, in this case, is significantly more accurate.</li>
+<li>We went through a simple workflow for preprocessing the dataset, then encoding and splitting it into training and test set. We then tested 2 different algorithms, in this case a Linear Regression and Gradient Boosting. We can observe that gradient boosting, in this case, is significantly more accurate.</li>
 </ul>
 
 </div>
